@@ -23,7 +23,7 @@ public class ScannerGun : MonoBehaviour
         {
             if (hit.collider.TryGetComponent<CelestialBodyData>(out var celestialBodyData))
             {
-                uiController.DisplayCelestialBodyInfo(celestialBodyData, hit.point);
+                uiController.DisplayCelestialBodyInfo(celestialBodyData);
             }
         }
     }
