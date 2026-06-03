@@ -3,25 +3,12 @@ using UnityEngine.SceneManagement;
 
 public class LevelLoader : MonoBehaviour
 {
-    // Start is called once before the first execution of Update after the MonoBehaviour is created
-    void Start()
+    public int sceneIndex;
+    public string rigTag = "Player";
+
+    void OnTriggerEnter(Collider other)
     {
-        
-    }
-
-    // Update is called once per frame
-    void Update()
-    {
-        
-    }
-
-    private void OnTriggerEnter(Collider other)
-    {
-        if (other.tag == "HubLoader")
-        {
-            SceneManager.LoadScene(0);
-
-        }
-
+        if (other.CompareTag(rigTag) || other.transform.root.CompareTag(rigTag))
+            SceneManager.LoadScene(sceneIndex);
     }
 }
