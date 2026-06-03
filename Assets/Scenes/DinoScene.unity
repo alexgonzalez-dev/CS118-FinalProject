@@ -440,6 +440,9 @@ PrefabInstance:
     - targetCorrespondingSourceObject: {fileID: 4317996532321984531, guid: d8c6b00116c384c49a5c0b250df7b89e, type: 3}
       insertIndex: -1
       addedObject: {fileID: 1528362121}
+    - targetCorrespondingSourceObject: {fileID: 4317996532321984531, guid: d8c6b00116c384c49a5c0b250df7b89e, type: 3}
+      insertIndex: -1
+      addedObject: {fileID: 1528362122}
   m_SourcePrefab: {fileID: 100100000, guid: d8c6b00116c384c49a5c0b250df7b89e, type: 3}
 --- !u!1001 &67795101
 PrefabInstance:
@@ -2696,23 +2699,6 @@ Transform:
   m_CorrespondingSourceObject: {fileID: 4797287950753934535, guid: f000895f43bfe88419029322e65c7ff2, type: 3}
   m_PrefabInstance: {fileID: 2074670169}
   m_PrefabAsset: {fileID: 0}
---- !u!1 &732553432 stripped
-GameObject:
-  m_CorrespondingSourceObject: {fileID: 1717954561962503725, guid: f6336ac4ac8b4d34bc5072418cdc62a0, type: 3}
-  m_PrefabInstance: {fileID: 1020308374}
-  m_PrefabAsset: {fileID: 0}
---- !u!114 &732553439
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 732553432}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: b7c6801d806e9ea43a4511d5dc0a1100, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: '::'
 --- !u!4 &771775164 stripped
 Transform:
   m_CorrespondingSourceObject: {fileID: 4273035998516238, guid: ff3ab8ddfca0ac5479075add486d1aff, type: 3}
@@ -3496,9 +3482,6 @@ PrefabInstance:
       insertIndex: -1
       addedObject: {fileID: 472195040}
     m_AddedComponents:
-    - targetCorrespondingSourceObject: {fileID: 1717954561962503725, guid: f6336ac4ac8b4d34bc5072418cdc62a0, type: 3}
-      insertIndex: -1
-      addedObject: {fileID: 732553439}
     - targetCorrespondingSourceObject: {fileID: 1767192433, guid: f6336ac4ac8b4d34bc5072418cdc62a0, type: 3}
       insertIndex: -1
       addedObject: {fileID: 1369198099}
@@ -5525,6 +5508,20 @@ BoxCollider:
   serializedVersion: 3
   m_Size: {x: 1, y: 1, z: 1}
   m_Center: {x: 0, y: 0, z: 0}
+--- !u!114 &1528362122
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1528362119}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: b7c6801d806e9ea43a4511d5dc0a1100, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: Assembly-CSharp::LevelLoader
+  sceneIndex: 0
+  rigTag: Player
 --- !u!1 &1533569983
 GameObject:
   m_ObjectHideFlags: 0
