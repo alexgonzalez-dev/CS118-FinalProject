@@ -547,7 +547,13 @@ PrefabInstance:
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
-    m_AddedComponents: []
+    m_AddedComponents:
+    - targetCorrespondingSourceObject: {fileID: 3742322946785172123, guid: ee88be6b8798f7149a72f257fdc25c4f, type: 3}
+      insertIndex: -1
+      addedObject: {fileID: 551600803}
+    - targetCorrespondingSourceObject: {fileID: 3742322946785172123, guid: ee88be6b8798f7149a72f257fdc25c4f, type: 3}
+      insertIndex: -1
+      addedObject: {fileID: 551600802}
   m_SourcePrefab: {fileID: 100100000, guid: ee88be6b8798f7149a72f257fdc25c4f, type: 3}
 --- !u!4 &271539218 stripped
 Transform:
@@ -981,6 +987,46 @@ Transform:
   m_CorrespondingSourceObject: {fileID: 9177295262459886240, guid: 4f7c5e2f62d29804d9792495940054a9, type: 3}
   m_PrefabInstance: {fileID: 502672517}
   m_PrefabAsset: {fileID: 0}
+--- !u!1 &551600801 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 3742322946785172123, guid: ee88be6b8798f7149a72f257fdc25c4f, type: 3}
+  m_PrefabInstance: {fileID: 271539217}
+  m_PrefabAsset: {fileID: 0}
+--- !u!114 &551600802
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 551600801}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: b7c6801d806e9ea43a4511d5dc0a1100, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: Assembly-CSharp::LevelLoader
+  sceneIndex: 0
+  rigTag: Player
+--- !u!65 &551600803
+BoxCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 551600801}
+  m_Material: {fileID: 0}
+  m_IncludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_ExcludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_LayerOverridePriority: 0
+  m_IsTrigger: 1
+  m_ProvidesContacts: 0
+  m_Enabled: 1
+  serializedVersion: 3
+  m_Size: {x: 1, y: 2.6612825, z: 0.732656}
+  m_Center: {x: 0, y: 0.83064127, z: 0.133672}
 --- !u!1001 &589662251
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -1494,6 +1540,10 @@ PrefabInstance:
     - target: {fileID: 1717954561962503725, guid: f6336ac4ac8b4d34bc5072418cdc62a0, type: 3}
       propertyPath: m_IsActive
       value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 1717954561962503725, guid: f6336ac4ac8b4d34bc5072418cdc62a0, type: 3}
+      propertyPath: m_TagString
+      value: Player
       objectReference: {fileID: 0}
     - target: {fileID: 1717954561962503726, guid: f6336ac4ac8b4d34bc5072418cdc62a0, type: 3}
       propertyPath: m_RootOrder
