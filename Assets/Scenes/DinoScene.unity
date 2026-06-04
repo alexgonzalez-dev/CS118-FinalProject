@@ -1719,7 +1719,7 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: 0.127, y: -0.113}
+  m_AnchoredPosition: {x: 0.127, y: 0.843}
   m_SizeDelta: {x: 5, y: 5}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &343374437
@@ -1742,7 +1742,9 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_text: Brachiosaurus
+  m_text: "Brachiosaurus altithorax\n\"Arm Lizard\"\n\nEra: Late Jurassic Period
+    (approx. 154\u2013150 million years ago)\n\nDiet: Herbivore (High-level browser)\n\nHabitat:
+    North America (Semi-arid prairies and river basins)"
   m_isRightToLeft: 0
   m_fontAsset: {fileID: 11400000, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}
   m_sharedMaterial: {fileID: 2180264, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}
@@ -1769,8 +1771,8 @@ MonoBehaviour:
   m_faceColor:
     serializedVersion: 2
     rgba: 4294967295
-  m_fontSize: 0.16
-  m_fontSizeBase: 0.16
+  m_fontSize: 0.08
+  m_fontSizeBase: 0.08
   m_fontWeight: 400
   m_enableAutoSizing: 0
   m_fontSizeMin: 18
@@ -2872,7 +2874,7 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: 0.127, y: 0.051}
+  m_AnchoredPosition: {x: 0.127, y: 1.17}
   m_SizeDelta: {x: 5, y: 5}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &798110661
@@ -2895,9 +2897,10 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_text: 'Megapiranha
-
-'
+  m_text: "Megapiranha (Megapiranha paranensis)\n\"The Monster Piranha\"\n\nEra:
+    Late Miocene Epoch (approx. 10 \u2013 8 million years ago)  \n\nDiet: Carnivore
+    / Opportunistic Omnivore (Fish, turtles, and early freshwater mammals)  \n\nHabitat:
+    South America (Ancient river systems of what is now Argentina"
   m_isRightToLeft: 0
   m_fontAsset: {fileID: 11400000, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}
   m_sharedMaterial: {fileID: 2180264, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}
@@ -2924,8 +2927,8 @@ MonoBehaviour:
   m_faceColor:
     serializedVersion: 2
     rgba: 4294967295
-  m_fontSize: 0.17
-  m_fontSizeBase: 0.17
+  m_fontSize: 0.08
+  m_fontSizeBase: 0.08
   m_fontWeight: 400
   m_enableAutoSizing: 0
   m_fontSizeMin: 18
@@ -4789,7 +4792,7 @@ RectTransform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1353819142}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 0, y: 0, z: 0.214}
+  m_LocalPosition: {x: 0, y: 0, z: 0.21}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []
@@ -4797,7 +4800,7 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: 0.127, y: -0.113}
+  m_AnchoredPosition: {x: 0.13, y: 0.99}
   m_SizeDelta: {x: 5, y: 5}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &1353819144
@@ -4820,9 +4823,10 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_text: 'Coelacanth
-
-'
+  m_text: "Coelacanth (Latimeria chalumnae)\n\nThe \"Living Fossil\"\nTemporal Range:
+    Lineage dates back 410 million years; rediscovered alive in 1938.  \n\nDiet:
+    Nocturnal Carnivore (Fish, squid, and small sharks).  \nHabitat: Indian Ocean
+    & Indonesia (Deep-sea volcanic caves, 100 to 700 meters down)"
   m_isRightToLeft: 0
   m_fontAsset: {fileID: 11400000, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}
   m_sharedMaterial: {fileID: 2180264, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}
@@ -4849,8 +4853,8 @@ MonoBehaviour:
   m_faceColor:
     serializedVersion: 2
     rgba: 4294967295
-  m_fontSize: 0.2
-  m_fontSizeBase: 0.2
+  m_fontSize: 0.08
+  m_fontSizeBase: 0.08
   m_fontWeight: 400
   m_enableAutoSizing: 0
   m_fontSizeMin: 18
@@ -6057,7 +6061,7 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: 0.127, y: 0.075}
+  m_AnchoredPosition: {x: 0.127, y: 0.949}
   m_SizeDelta: {x: 5, y: 5}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &1667870573
@@ -6080,9 +6084,9 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_text: 'Triceratops
-
-    (Animated!)'
+  m_text: "Triceratops horridus\n\n\"The Three-Horned Face\"\nEra: Late Cretaceous
+    Period (approx. 68\u201366 million years ago)\n\nDiet: Herbivore (Plant-eater)\n\nHabitat:
+    North America (Ancient floodplains and forested valleys)"
   m_isRightToLeft: 0
   m_fontAsset: {fileID: 11400000, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}
   m_sharedMaterial: {fileID: 2180264, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}
@@ -6109,8 +6113,8 @@ MonoBehaviour:
   m_faceColor:
     serializedVersion: 2
     rgba: 4294967295
-  m_fontSize: 0.2
-  m_fontSizeBase: 0.2
+  m_fontSize: 0.09
+  m_fontSizeBase: 0.09
   m_fontWeight: 400
   m_enableAutoSizing: 0
   m_fontSizeMin: 18
@@ -7504,9 +7508,9 @@ Transform:
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children:
+  - {fileID: 1258650797}
   - {fileID: 1184181031}
   - {fileID: 406268944}
-  - {fileID: 1258650797}
   m_Father: {fileID: 0}
   m_LocalEulerAnglesHint: {x: 0, y: 140, z: 0}
 --- !u!1 &2010105045
@@ -7898,7 +7902,7 @@ SceneRoots:
   - {fileID: 772937626}
   - {fileID: 1054352182}
   - {fileID: 142241888}
-  - {fileID: 1787416994}
   - {fileID: 1637381468}
   - {fileID: 39590180}
   - {fileID: 1989101691}
+  - {fileID: 1787416994}
