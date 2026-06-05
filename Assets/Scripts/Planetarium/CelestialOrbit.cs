@@ -4,12 +4,12 @@ public class CelestialOrbit : MonoBehaviour
 {
     [Header("Orbit Configuration")]
     [SerializeField] private Transform sunTransform;
-    [SerializeField] private float orbitRadius = 5f;
     [SerializeField] private float orbitSpeed = 10f;
 
     [Header("Rotation")]
     [SerializeField] private float axialRotationSpeed = 15f;
 
+    private float _orbitRadius = 5f;
     private float _runningPhase;
 
     void Start()
@@ -24,6 +24,9 @@ public class CelestialOrbit : MonoBehaviour
         if (sunTransform != null)
         {
             Vector3 offset = transform.position - sunTransform.position;
+            Vector2 flatOffset = new Vector2(offset.x, offset.z);
+
+            _orbitRadius = flatOffset.magnitude;
             _runningPhase = Mathf.Atan2(offset.z, offset.x);
         }
     }
@@ -35,8 +38,8 @@ public class CelestialOrbit : MonoBehaviour
 
         _runningPhase += orbitSpeed * Time.deltaTime * 0.1f;
 
-        float x = sunTransform.position.x + Mathf.Cos(_runningPhase) * orbitRadius;
-        float z = sunTransform.position.z + Mathf.Sin(_runningPhase) * orbitRadius;
+        float x = sunTransform.position.x + Mathf.Cos(_runningPhase) * _orbitRadius;
+        float z = sunTransform.position.z + Mathf.Sin(_runningPhase) * _orbitRadius;
 
         transform.position = new Vector3(x, transform.position.y, z);
     }
