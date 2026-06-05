@@ -14,6 +14,11 @@ public class ScannerGun : MonoBehaviour
     [Header("Visual Effects")]
     [SerializeField] private LineRenderer laserVisual;
 
+    [Header("Audio Settings")]
+    [SerializeField] private AudioSource audioSource;
+    [SerializeField] private AudioClip scanSuccessSound;
+
+
     public void FireScanner()
     {
         Ray ray = new Ray(muzzleTransform.position, muzzleTransform.forward);
@@ -24,6 +29,11 @@ public class ScannerGun : MonoBehaviour
             if (hit.collider.TryGetComponent<CelestialBodyData>(out var celestialBodyData))
             {
                 uiController.DisplayCelestialBodyInfo(celestialBodyData);
+
+                if (audioSource != null && scanSuccessSound != null)
+                {
+                    audioSource.PlayOneShot(scanSuccessSound);
+                }
             }
         }
     }
