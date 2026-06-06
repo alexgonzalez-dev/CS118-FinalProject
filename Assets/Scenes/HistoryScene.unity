@@ -5995,14 +5995,14 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_text: 'Developed by Australia''s CSIRO research agency in the 1990s, Wi-Fi untethered
-    the world from physical cables. By using radio waves to transmit data through
-    thin air, it turned the internet into an omnipresent resource, sparking the mobile
-    revolution and laying the foundation for our hyper-connected modern lives.
+  m_text: 'Launched by the Soviet Union in 1957, Sputnik 1 was the first artificial
+    satellite to orbit Earth. Its simple "beep-beep" radio signal shocked the world
+    and triggered the Space Race, paving the way for the thousands of satellites
+    that now handle modern global communication, navigation, and weather tracking.
 
 
     Model
-    Displayed: Laptop Computer'
+    Displayed: Sputnik 1'
   m_isRightToLeft: 0
   m_fontAsset: {fileID: 11400000, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}
   m_sharedMaterial: {fileID: 2180264, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}
